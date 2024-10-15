@@ -12,25 +12,18 @@ This C# Windows Forms application allows South African citizens to report munici
 2. The Main Menu will appear. Click "Report Issues" to report a municipal issue.
 
 ## Features
-1. Report Issues
+# 1. Report Issues
 Description: This feature allows citizens to report municipal issues such as broken streetlights, potholes, or water leaks.
-How to Use:
+# How to Use:
 Open the application and click on Report Issues.
 Fill out the form with a category, description, and optional attachment.
 Click Submit to file the report.
-2. Local Events and Announcements
+# 2. Local Events and Announcements
 Description: View upcoming local events and announcements. Use search features to filter events by category and date.
-How to Use:
+# How to Use:
 Click on Local Events and Announcements from the main menu.
 Browse the list of events, or use the search feature to find specific ones.
 Recommended events will be displayed based on your search preferences.
-
-## How to Use
-1. Fill in the location, category, and description of the issue.
-2. Click "Attach File" to upload any relevant documents or images.
-3. Click "Submit" to send the report.
-4. Use "Back to Main Menu" to return.
-
 ## Future Enhancements
 - Local Events and Announcements feature.
 - Service Request Status tracking.

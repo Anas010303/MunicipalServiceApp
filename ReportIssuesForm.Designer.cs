@@ -1,4 +1,4 @@
-﻿namespace MunicipalServicesApp
+﻿namespace MunicipalServiceApp
 {
     partial class ReportIssuesForm
     {
@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.txtLocation = new System.Windows.Forms.TextBox();
-            this.cmbCategory = new System.Windows.Forms.ListBox();
-            this.rtbDescription = new System.Windows.Forms.RichTextBox();
-            this.btnAttach = new System.Windows.Forms.Button();
+            this.comboBoxCategory = new System.Windows.Forms.ListBox();
+            this.txtDescription = new System.Windows.Forms.RichTextBox();
+            this.lblAttachmentPath = new System.Windows.Forms.Button();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
@@ -44,36 +44,36 @@
             this.txtLocation.TabIndex = 0;
             this.txtLocation.Text = "Enter location";
             // 
-            // cmbCategory
+            // comboBoxCategory
             // 
-            this.cmbCategory.FormattingEnabled = true;
-            this.cmbCategory.ItemHeight = 20;
-            this.cmbCategory.Items.AddRange(new object[] {
+            this.comboBoxCategory.FormattingEnabled = true;
+            this.comboBoxCategory.ItemHeight = 20;
+            this.comboBoxCategory.Items.AddRange(new object[] {
             "sanitation",
             "roads",
             "utilities"});
-            this.cmbCategory.Location = new System.Drawing.Point(241, 108);
-            this.cmbCategory.Name = "cmbCategory";
-            this.cmbCategory.Size = new System.Drawing.Size(144, 64);
-            this.cmbCategory.TabIndex = 1;
+            this.comboBoxCategory.Location = new System.Drawing.Point(241, 108);
+            this.comboBoxCategory.Name = "comboBoxCategory";
+            this.comboBoxCategory.Size = new System.Drawing.Size(144, 64);
+            this.comboBoxCategory.TabIndex = 1;
             // 
-            // rtbDescription
+            // txtDescription
             // 
-            this.rtbDescription.Location = new System.Drawing.Point(241, 194);
-            this.rtbDescription.Name = "rtbDescription";
-            this.rtbDescription.Size = new System.Drawing.Size(144, 65);
-            this.rtbDescription.TabIndex = 2;
-            this.rtbDescription.Text = "";
+            this.txtDescription.Location = new System.Drawing.Point(241, 194);
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.Size = new System.Drawing.Size(144, 65);
+            this.txtDescription.TabIndex = 2;
+            this.txtDescription.Text = "";
             // 
-            // btnAttach
+            // lblAttachmentPath
             // 
-            this.btnAttach.Location = new System.Drawing.Point(254, 311);
-            this.btnAttach.Name = "btnAttach";
-            this.btnAttach.Size = new System.Drawing.Size(119, 35);
-            this.btnAttach.TabIndex = 3;
-            this.btnAttach.Text = "Attach File";
-            this.btnAttach.UseVisualStyleBackColor = true;
-            this.btnAttach.Click += new System.EventHandler(this.btnAttach_Click);
+            this.lblAttachmentPath.Location = new System.Drawing.Point(254, 311);
+            this.lblAttachmentPath.Name = "lblAttachmentPath";
+            this.lblAttachmentPath.Size = new System.Drawing.Size(119, 35);
+            this.lblAttachmentPath.TabIndex = 3;
+            this.lblAttachmentPath.Text = "Attach File";
+            this.lblAttachmentPath.UseVisualStyleBackColor = true;
+            this.lblAttachmentPath.Click += new System.EventHandler(this.btnAttach_Click);
             // 
             // btnSubmit
             // 
@@ -99,9 +99,9 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.btnSubmit);
-            this.Controls.Add(this.btnAttach);
-            this.Controls.Add(this.rtbDescription);
-            this.Controls.Add(this.cmbCategory);
+            this.Controls.Add(this.lblAttachmentPath);
+            this.Controls.Add(this.txtDescription);
+            this.Controls.Add(this.comboBoxCategory);
             this.Controls.Add(this.txtLocation);
             this.Name = "ReportIssuesForm";
             this.Text = "ReportIssuesForm";
@@ -113,9 +113,9 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtLocation;
-        private System.Windows.Forms.ListBox cmbCategory;
-        private System.Windows.Forms.RichTextBox rtbDescription;
-        private System.Windows.Forms.Button btnAttach;
+        private System.Windows.Forms.ListBox comboBoxCategory;
+        private System.Windows.Forms.RichTextBox txtDescription;
+        private System.Windows.Forms.Button lblAttachmentPath;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.ProgressBar progressBar;
     }

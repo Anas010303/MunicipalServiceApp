@@ -24,6 +24,8 @@ Description: View upcoming local events and announcements. Use search features t
 Click on Local Events and Announcements from the main menu.
 Browse the list of events, or use the search feature to find specific ones.
 Recommended events will be displayed based on your search preferences.
-## Future Enhancements
-- Local Events and Announcements feature.
-- Service Request Status tracking.
+# 3. Service Request Status
+Description: This feature allows users to track the status of their submitted service requests (to be implemented in Task 3).
+## Usage
+Search Events: Use the search box and dropdowns to filter events by category or date.
+Event Recommendations: After searching, the application will suggest related events based on your previous search queries.

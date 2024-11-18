@@ -1,4 +1,4 @@
-﻿using MunicipalServiceApp;
+﻿using MunicipalServiceApp; // Ensure the namespace matches your forms
 using System;
 using System.Windows.Forms;
 
@@ -27,7 +27,8 @@ namespace MunicipalServicesApp
 
         private void btnServiceRequestStatus_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Service Request Status will be implemented in Task 3.");
+            ServiceRequestStatusForm serviceRequestStatusForm = new ServiceRequestStatusForm();
+            serviceRequestStatusForm.ShowDialog();
         }
     }
 }

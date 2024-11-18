@@ -55,13 +55,13 @@
             // 
             // btnServiceRequestStatus
             // 
-            this.btnServiceRequestStatus.Enabled = false;
             this.btnServiceRequestStatus.Location = new System.Drawing.Point(57, 222);
             this.btnServiceRequestStatus.Name = "btnServiceRequestStatus";
             this.btnServiceRequestStatus.Size = new System.Drawing.Size(134, 73);
             this.btnServiceRequestStatus.TabIndex = 2;
             this.btnServiceRequestStatus.Text = "Service Request Status";
             this.btnServiceRequestStatus.UseVisualStyleBackColor = true;
+            this.btnServiceRequestStatus.Click += new System.EventHandler(this.btnServiceRequestStatus_Click);
             // 
             // Form1
             // 
